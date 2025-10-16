@@ -54,6 +54,7 @@ def _prepare_command(command: str) -> list[str]:
         "java",
         "ruby",
         "docker",
+        "podman",
     }
 
     executable = parts[0].split("/")[-1]
